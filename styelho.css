@@ -1,0 +1,49 @@
+.parent{
+    display: flex;
+    background-color: rgb(181, 22, 22);
+    
+
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: white;
+}
+
+.child{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 50%;
+    margin-left: 50%;
+    
+}
+.b1{
+   width: 150px;
+   height: 60px;
+
+    
+}
+.m1{
+    width: 50%;
+    margin-top: 8%;
+    display: flex;
+}
+#p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    height: 40vh;
+    margin-top: 10%;
+    font-size: large;
+    margin-left: 10%;
+    word-spacing: 5px;
+}
+.parent2{
+    display: flex;
+}
+#t1{
+    font-size: larger;
+    
+}

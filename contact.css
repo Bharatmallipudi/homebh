@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: flex;
+    background-color: rgb(181, 22, 22);
+    
+
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.child{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 50%;
+    margin-left: 50%;
+    margin-top: 1%;
+    
+}
+table,th,tr,td{
+        border: 1px solid black;
+        border-style: ridge;
+        align-content: center;
+        align-items: center;
+        margin-top: 10%;
+        /* margin-left: 30%; */
+        margin-right: 10%;
+        height: 1vh;
+        color: black;
+        
+}
+td,th{
+    height: 50px;
+    width: 20vw;
+    margin-right: 50%;
+}
+.d1{
+    display: flex;
+}
+#p1{
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+th{
+    color: rgb(186, 7, 7);
+}
+td a{
+    color: black;
+}
